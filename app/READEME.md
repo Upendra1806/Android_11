@@ -1,0 +1,1 @@
+A Sample app with HILT dependency, with View Model and Room database
