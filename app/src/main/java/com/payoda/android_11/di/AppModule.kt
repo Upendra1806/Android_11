@@ -1,4 +1,4 @@
-package com.payoda.android_11
+package com.payoda.android_11.di
 
 import android.content.Context
 import androidx.room.Room

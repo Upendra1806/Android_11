@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.payoda.android_11.R
-import com.payoda.android_11.UserAdapter
+import com.payoda.android_11.adapters.UserAdapter
 import com.payoda.android_11.entity.User
 import com.payoda.android_11.viewmodels.ViewModelUserList
 import dagger.hilt.android.AndroidEntryPoint

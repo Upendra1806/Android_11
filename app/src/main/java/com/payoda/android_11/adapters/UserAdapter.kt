@@ -1,4 +1,4 @@
-package com.payoda.android_11
+package com.payoda.android_11.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
+import com.payoda.android_11.R
 import com.payoda.android_11.entity.User
 
 class UserAdapter : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
