@@ -1,1 +1,2 @@
-A Sample app with HILT dependency, with View Model and Room database
+A Sample app with HILT dependency,
+View Model and Room database along with DAO and Repository
