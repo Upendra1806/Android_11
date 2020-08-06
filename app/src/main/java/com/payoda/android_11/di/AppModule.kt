@@ -1,6 +1,7 @@
 package com.payoda.android_11.di
 
 import android.content.Context
+import android.content.SharedPreferences
 import androidx.room.Room
 import com.payoda.android_11.dao.UserDao
 import com.payoda.android_11.database.Android11Database
@@ -14,6 +15,13 @@ import javax.inject.Singleton
 @Module
 @InstallIn(ApplicationComponent::class)
 object AppModule {
+
+
+    @Singleton
+    @Provides
+    fun provideSharedPreferences(@ApplicationContext context: Context): SharedPreferences {
+        return context.getSharedPreferences("demoPreference", Context.MODE_PRIVATE)
+    }
 
     @Singleton
     @Provides
