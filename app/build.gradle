@@ -4,6 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
 apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: "kotlinx-serialization"
 
 
 android {
@@ -75,6 +76,7 @@ dependencies {
     implementation "com.jakewharton.timber:timber:${rootProject.ext.timber_version}"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:${rootProject.ext.kotlin_version}"
     implementation "androidx.work:work-runtime-ktx:${rootProject.ext.versions_work}"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:${rootProject.kotlin_serialize_library}"
 
 
 
