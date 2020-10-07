@@ -1,2 +1,3 @@
+include ':camera'
 rootProject.name='Android_11'
 include ':app'
